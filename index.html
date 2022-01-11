@@ -3,14 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="autor" content="Nestor Rivera">
+    <meta name="description"
+        content="This site will contain the lesson practice of each week for wdd230 course from byui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Nestor Rivera|WDD 230 - Assignment Portal</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <h1>Testing Page</h1>
-    <footer>Hello World!</footer>
+    <div class="center-home">
+        <header>
+            <div class="header-grid">
+                <img src="./images/nestor_portrait_img.jpg" alt="Nestor Rivera portrait image" width="125" height="152">
+                <h1 class="author-name">Nestor A. Rivera</h1>
+            </div>
+        </header>
+        <main>
+            <h2 class="text-shadow">WDD: 230 Assignment Portal</h2>
+            <hr>
+            <div class="list-lessons">
+                <ul id="lessons"></ul>
+            </div>
+            <hr>
+            <p class="lesson-inf">Some lessons may need more than one activity/assignment link</p>
+        </main>
+        <footer>
+            <div class="footer-text">
+                <p class="copyright">&copy; <span id="year"></span> .:|:. Nestor A. Rivera .:|:. Buenos Aires</p>
+
+                <p class="date-color">Last Updated: <span id="currentDate"></span></p>
+            </div>
+
+        </footer>
+    </div>
+    <script src="./js/home.js"></script>
 </body>
 
 </html>
