@@ -28,16 +28,16 @@ h1,
     color: #FFFFFF;
 }
 
-.copyright {
+.copyright{
+    font-size: 1em;
     padding-top: 30px;
     margin-bottom: 5px;
-    font-size: 20px;
-    ;
+    font-size: 20px;;
 }
 
 .date-color {
-    margin-top: 5px;
-    ;
+    font-size: 0.9em;
+    margin-top: 5px;;
     padding-bottom: 30px;
     color: #FFFF00;
 }
@@ -49,7 +49,7 @@ h1,
 }
 
 .author-name,
-.footer-text {
+.footer-text{
     text-align: center;
 }
 
