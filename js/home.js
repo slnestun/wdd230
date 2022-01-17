@@ -5,7 +5,7 @@ myLessons = {
     weekLessons: [{
             lessons: 'Lesson 02: ',
             linkName: 'Design Principles Document',
-            link: './lesson2/designPage.html'
+            link: './lesson2/design_page.html'
         },
         {
             lessons: 'Lesson 03: ',
