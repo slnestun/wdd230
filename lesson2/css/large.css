@@ -1,10 +1,15 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
     #list-sections {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1.5em;
+        grid-gap: 1em;
         background-color: #FFFFFF;
         align-items: center;
     }
+
+    .section-3 {
+        grid-column: 3/4;
+    }
+
 
 }
