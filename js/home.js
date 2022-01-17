@@ -4,8 +4,8 @@ let myLessons = {}
 myLessons = {
     weekLessons: [{
             lessons: 'Lesson 02: ',
-            linkName: 'Title',
-            link: 'https://developer.mozilla.org/en-US/docs/Web/API/Document/lastModified'
+            linkName: 'Design Principles Document',
+            link: './lesson2/designPage.html'
         },
         {
             lessons: 'Lesson 03: ',
