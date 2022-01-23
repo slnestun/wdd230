@@ -5,12 +5,12 @@ myLessons = {
     weekLessons: [{
             lessons: 'Lesson 02: ',
             linkName: 'Design Principles Document',
-            link: './lesson2/design_page.html'
+            link: './lesson2/index.html'
         },
         {
             lessons: 'Lesson 03: ',
-            linkName: 'Title',
-            link: '#'
+            linkName: 'Website Planning Document',
+            link: './lesson3/index.html'
         },
         {
             lessons: 'Lesson 04: ',
