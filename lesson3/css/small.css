@@ -93,3 +93,19 @@ h1 {
     font-weight: 400;
     padding-bottom: 1em;
 }
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    padding: 15px;
+    border-collapse: collapse;
+}
+
+.typography {
+    margin-left: auto;
+    margin-right: auto;
+}
