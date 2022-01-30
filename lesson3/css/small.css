@@ -10,7 +10,7 @@ nav {
 .footer-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background-color: #214D6E;
+    background-color: #dcf0f8;
     margin: 0 1em 1em 1em;
     border-radius: 20px;
     align-items: center;
@@ -85,7 +85,7 @@ h1 {
     letter-spacing: 10px;
 }
 
-h2{
+h2 {
     margin: 20px;
 }
 
@@ -96,7 +96,7 @@ h2{
     padding-bottom: 1em;
 }
 
-p{
+p {
     margin: 5px 20px 5px 20px;
 }
 
@@ -187,10 +187,11 @@ p a:hover {
     flex: 1 1 auto;
 }
 
-.color-palette img{
+.color-palette img {
     width: 100%;
     height: auto;
 }
-.color-palette{
+
+.color-palette {
     margin: 0px 20px 0px 20px;
 }
