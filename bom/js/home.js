@@ -13,7 +13,7 @@ const list = document.querySelector('ul');
         listItem.appendChild(listText);
         listText.textContent = myItem;
         listItem.appendChild(listBtn);
-        listBtn.textContent = 'Delete';
+        listBtn.ariaLabel.textContent = '❌';
         list.appendChild(listItem);
 
         listBtn.onclick = function(e) {

@@ -14,13 +14,13 @@ myLessons = {
         },
         {
             lessons: 'Lesson 04: ',
-            linkName: 'Title',
-            link: '#'
+            linkName: 'Chamber Of Comerce',
+            link: './chamber./index.html'
         },
         {
             lessons: 'Lesson 05: ',
-            linkName: 'Title',
-            link: '#'
+            linkName: 'BOM',
+            link: './bom/index.html'
         },
         {
             lessons: 'Lesson 06: ',
