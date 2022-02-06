@@ -1,18 +1,29 @@
-@media only screen and (min-width: 60em) {
-    .navigation {
+@media only screen and (min-width: 64rem) {
+    .footer-chamber-inf {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.5em;
+    }
+
+    .footer-logo {
         display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
     }
 
-    .navigation li {
-        display: block;
-        flex: 1 1 auto;
+    .footer-direction,
+    .footer-contact {
+        text-align: left;
     }
 
-    .navigation a {
-        text-align: center;
+    .footer-data {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
-    .navigation li:first-child {
-        display: none;
+    .footer-data p {
+        padding: 0px 10px 0px 10px;
+        border-left: 1px solid #FFFFFF;
     }
 }

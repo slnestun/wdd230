@@ -15,7 +15,7 @@ myLessons = {
         {
             lessons: 'Lesson 04: ',
             linkName: 'Chamber Of Comerce',
-            link: './chamber./index.html'
+            link: './chamber/index.html'
         },
         {
             lessons: 'Lesson 05: ',
