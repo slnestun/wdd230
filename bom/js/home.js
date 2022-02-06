@@ -19,6 +19,5 @@ const list = document.querySelector('ul');
         listBtn.onclick = function(e) {
           list.removeChild(listItem);
         }
-
         input.focus();
       }
