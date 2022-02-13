@@ -1,9 +1,16 @@
-/*header styles*/
+/*----------Header Styles----------*/
+header {
+    background-color: #044B87;
+}
+
 .header-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #044B87;
+}
+
+.logo {
+    margin: 0px 10px 0px 10px;
 }
 
 .chamber-name {
@@ -11,26 +18,23 @@
 }
 
 .chamber-name h1 {
-    padding: 10px;
     margin: auto;
     font-size: 30px;
 }
 
 .chamber-name p {
-    padding: 10px;
     margin: auto;
     font-size: 16px;
 }
 
-.social-media{
+.social-media {
     display: flex;
     justify-content: space-between;
 }
-.facebook-logo, .linkedin-logo{
-    margin: 10px;
-}
-nav {
-    background-color: #044B87;
+
+.facebook-logo,
+.linkedin-logo {
+    margin: 0px 10px 0px 10px;
 }
 
 nav button {
@@ -99,13 +103,13 @@ nav ul.open {
     text-align: center;
     font-weight: 400;
     grid-column: 1/6;
-    margin: 0.5rem;
+    margin: auto;
     border: 1px solid #bbb;
     padding: 0.75rem;
     background-color: #eee;
 }
 
-/*Footer styles*/
+/*----------Footer Styles----------*/
 .footer-color {
     background-color: #044B87;
 }
@@ -132,4 +136,9 @@ nav ul.open {
 
 .bold-text {
     font-weight: bolder;
+}
+
+/*---------- Main----------*/
+main img {
+    max-width: 100%;
 }

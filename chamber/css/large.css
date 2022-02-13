@@ -1,4 +1,32 @@
 @media only screen and (min-width: 64rem) {
+
+    /*----------Header----------*/
+    /* N A V I G A T I O N */
+
+
+    #primaryNav {
+        display: flex;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .chamber-name {
+        order: 2;
+    }
+
+    .social-media {
+        order: 4;
+    }
+
+
+
+    /*----------Footer----------*/
     .footer-chamber-inf {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
