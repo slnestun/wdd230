@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+}
+
+.pictures {
+    margin: auto;
+}
+
+[data-src] {
+    min-width: 20px;
+    min-height: 20px;
+}

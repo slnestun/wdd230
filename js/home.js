@@ -29,8 +29,8 @@ myLessons = {
         },
         {
             lessons: 'Lesson 07: ',
-            linkName: 'Title',
-            link: '#'
+            linkName: 'Progressive Loading of Images',
+            link: './lesson7/lazyload.html'
         },
         {
             lessons: 'Lesson 08: ',
