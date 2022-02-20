@@ -38,7 +38,7 @@ header {
 }
 
 nav button {
-    margin: .2rem 2v;
+    margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
@@ -152,7 +152,6 @@ section {
 .count-visits {
     text-align: center;
     margin: 10px 0px 10px 0px;
-    padding: auto;
 }
 
 .discover-section {
