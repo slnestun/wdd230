@@ -24,6 +24,17 @@
         order: 4;
     }
 
+    /*----Discover---*/
+    .discover-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+
+    .discover-section img:hover {
+        box-shadow: 0 0 50px #333;
+        border-radius: 20px;
+    }
 
 
     /*----------Footer----------*/

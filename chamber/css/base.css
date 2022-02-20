@@ -142,3 +142,23 @@ nav ul.open {
 main img {
     max-width: 100%;
 }
+
+section {
+    margin: auto;
+    text-align: center;
+}
+
+.discover-title,
+.count-visits {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: auto;
+}
+
+.discover-section {
+    margin: 0px 20px 0px 20px;
+}
+
+.discover-section img {
+    border-radius: 5px;
+}
