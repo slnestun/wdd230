@@ -34,8 +34,8 @@ myLessons = {
         },
         {
             lessons: 'Lesson 08: ',
-            linkName: 'Title',
-            link: '#'
+            linkName: 'Table Build',
+            link: './lesson8/tablebuild.html'
         },
         {
             lessons: 'Lesson 09: ',
