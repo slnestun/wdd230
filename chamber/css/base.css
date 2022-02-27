@@ -138,7 +138,7 @@ nav ul.open {
     font-weight: bolder;
 }
 
-/*---------- Main----------*/
+/*---------- Main ----------*/
 main img {
     max-width: 100%;
 }
@@ -148,6 +148,7 @@ section {
     text-align: center;
 }
 
+/*---------- Discover page ----------*/
 .discover-title,
 .count-visits {
     text-align: center;
