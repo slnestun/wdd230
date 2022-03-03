@@ -39,8 +39,8 @@ myLessons = {
         },
         {
             lessons: 'Lesson 09: ',
-            linkName: 'Title',
-            link: '#'
+            linkName: 'Working with JSON data and the Fetch API',
+            link: './lesson9/prophets.html'
         },
         {
             lessons: 'Lesson 10: ',
