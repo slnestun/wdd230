@@ -1,7 +1,56 @@
 @media only screen and (min-width: 32.5em) {
-    .discover-section {
+    .home-page {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 1em;
     }
+    .main-img{
+        grid-column: 1/5;
+    }
+    .join-button h2 {
+        margin-top: -65%;
+        margin-left: 45px;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        color: #044B87;
+        font-size: 2.3em;
+        text-shadow: 0 0 4px #FFFFFF;
+    }
+    .join-button button {
+        margin-top: -10%;
+        margin-left: 70%;
+        position: absolute;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #044B87;
+        box-shadow: 0px 0px 2px 2px  rgba(4, 75, 135, 0.35);
+    }
+    .news-release{
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+    .join-left{
+        grid-column: 1/5;
+        grid-row: 4/5;
+        display: block;
+        background-color: #DCF0F8;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .event-left{
+        grid-column: 1/4;
+        grid-row: 5/6;
+    }
+    .weather-left{
+        grid-column: 4/5;
+        grid-row: 5/6;
+    }
+
 }
