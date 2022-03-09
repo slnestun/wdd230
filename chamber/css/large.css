@@ -115,11 +115,6 @@
 
 
     /*----Discover---*/
-    .discover-section {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1em;
-    }
 
     .discover-section img:hover {
         box-shadow: 0 0 50px #044B87;
@@ -154,5 +149,9 @@
     .footer-data p {
         padding: 0px 10px 0px 10px;
         border-left: 1px solid #FFFFFF;
+    }
+    /*---------- FORM ----------*/
+    form label.sbs{
+        padding: .4rem 0;
     }
 }
