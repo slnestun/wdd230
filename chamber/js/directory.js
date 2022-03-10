@@ -8,8 +8,8 @@ fetch(requestURL)
   .then(function (jsonObject) {
     //loop integraded in the promise
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const business = jsonObject["members"];
-    business.forEach(displayBusiness);
+    const members = jsonObject["members"];
+    members.forEach(displayBusiness);
   });
 
 function displayBusiness(member) {
