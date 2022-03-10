@@ -34,4 +34,5 @@ function displayBusiness(member) {
   card.appendChild(address);
   card.appendChild(phone);
   card.appendChild(site);
+  cards.appendChild(card);
 }
