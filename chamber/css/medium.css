@@ -94,12 +94,15 @@
         margin: 15px 15px 15px 0px;
     }
 
+<<<<<<< HEAD
     form .information-form, form .business-form, form .options{
         display:block;
         margin-left: 30%;
         margin-right: 30%;
     }
 
+=======
+>>>>>>> 06e0434f752474e5eb16a83efb257a22f6688243
 
 
 }
