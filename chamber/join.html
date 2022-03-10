@@ -21,16 +21,6 @@
     <div class="center-home">
         <header>
             <div class="header-content">
-                <nav>
-                    <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
-                    <ul id="primaryNav">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./discover.html">Discover</a></li>
-                        <li><a href="#">Directory</a></li>
-                        <li><a href="#">Join</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
                 <div class="logo">
                     <img src="./images/rsz_logo.webp" alt="Villa Crespo Chamber " height="35" width="49" />
                 </div>
@@ -48,15 +38,85 @@
                                 alt="linkedin logo" height="32" width="32"></a>
                     </div>
                 </div>
+                <nav>
+                    <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./discover.html">Discover</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
+                        <li class="active"><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="date">
+
+                </div>
 
             </div>
-            <div class="date">
-
-            </div>
-
 
         </header>
-        <main></main>
+        <main>
+            <form method="get" action="./thankyou.html">
+                <fieldset class="information-form">
+                    <legend>Applicant Information</legend>
+                    <label class="top"> First Name*<input type="text" name="fname" required></label>
+                    <label class="top"> Last Name*<input type="text" name="lname" required></label>
+                    <label class="top"> Cell Phone<input type="tel" name="phone" placeholder="123555"></label>
+                    <label class="top"> Email*<input type="email" name="email" placeholder="@gmail.com"
+                            required></label>
+                </fieldset>
+                <fieldset class="business-form">
+                    <legend>Business information</legend>
+                    <label class="top"> Business Name*<input type="text" name="business" required></label>
+                    <label class="top"> Business Position<input type="text" name="position"
+                            pattern="[A-Za-z\s-]{7,}"></label>
+                    <label class="top"> Business Description<textarea name="description" maxlength="120" rows="5"
+                            placeholder="Max length 120 characters"></textarea></label>
+                    <label><input hidden id="date" type="date" name="currentDate"></label>
+                    <label><input hidden id="time" type="time" name="currentTime"></label>
+                </fieldset>
+                <fieldset class="options">
+                    <legend>Membership options</legend>
+                    <div class="member-options">
+                        <label class="sbs"><input type="radio" name="audience" value="free"><span
+                                class="level">Non-profit</span> Free</label>
+                        <ul>
+                            <li>Welcome on the Facebook page</li>
+                            <li>Post your events on the online calendar</li>
+                            <li>Monthly e-newsletter</li>
+                            <li>Participate in leads groups (subject to eligibility)</li>
+                        </ul>
+                        <label class="sbs"><input type="radio" name="audience" value="bronze"><span
+                                class="level">Bronze</span> $200/month</label>
+                        <ul>
+                            <li>Everything in the Non Profit Membership</li>
+                            <li>Free certificates of origin</li>
+                            <li>Ability to advertise in the e-newsletter</li>
+                            <li>Offer "hot deals" discounts to chamber members</li>
+                        </ul>
+                        <label class="sbs"><input type="radio" name="audience" value="silver"><span
+                                class="level">Silver</span> $250/month</label>
+                        <ul>
+                            <li>Everything in the Bronze Membership</li>
+                            <li>Ribbon-Cutting or Grand Opening event</li>
+                            <li>Annual strategy meeting with Chamber staff and/or Board</li>
+                            <li>Free tickets to the Annual Awards event</li>
+                        </ul>
+                        <label class="sbs"><input type="radio" name="audience" value="gold"><span
+                                class="level">Gold</span>
+                            $500/month</label>
+                            <ul>
+                                <li>Everything in the Silver Membership</li>
+                                <li>Opportunity to present at a Chamber board meeting</li>
+                                <li>First crack at sponsorship of signature events</li>
+                                <li>Logo on dedicated "Platinum Sponsors" page in Welcome to Superior Guide</li>
+                            </ul>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Join Villa Crespo" class="submitBtn">
+
+            </form>
+        </main>
 
 
         <footer class="footer-color">
@@ -88,7 +148,7 @@
     </div>
     <script src="./js/today-date.js"></script>
     <script src="./js/menu-ham.js"></script>
-    <script src="./js/discover.js"></script>
+    <script src="./js/join.js"></script>
 </body>
 
 </html>
