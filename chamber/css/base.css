@@ -74,7 +74,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-  background-color: #a8ccea;
+  background-color: #dcf0f8;
 }
 
 nav ul {
@@ -147,6 +147,14 @@ nav ul.open {
   margin: 10px 20px 10px 20px;
 }
 
+div#invite-chamber {
+  background-color: #a8ccea;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
 main img {
   max-width: 100%;
   border-radius: 10px;
@@ -206,6 +214,7 @@ p {
   margin: 5px;
   padding: 5px;
 }
+
 hr {
   height: 1px;
   background-color: #ffffff;
@@ -219,9 +228,11 @@ hr {
   background-color: #a8ccea;
   box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.5);
 }
+
 .spotlight-1 {
   margin: 15px 15px 0px 15px;
 }
+
 .spotlight-2 {
   margin: 0px 15px 15px 15px;
 }
@@ -235,6 +246,7 @@ hr {
 .join-left {
   display: none;
 }
+
 /*---------- Discover page ----------*/
 .discover-title,
 .count-visits {
@@ -264,6 +276,12 @@ hr {
 }
 
 /*---------- FORM ----------*/
+.chamber-join {
+  text-align: center;
+  font-size: 2.3em;
+  color: #044b87;
+}
+
 form fieldset {
   margin: 2rem 2rem;
   border: 1px solid #445ba9;
@@ -338,32 +356,33 @@ form label.top input:required:valid {
 
 /*---------- DISCOVER ----------*/
 
-.directory-main{
-    max-width: 60em;
-    margin: 20px auto;
+.directory-main {
+  max-width: 60em;
+  margin: 20px auto;
 }
+
 .cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0.5rem;
 }
 
 .images {
-    border: 1px inset #044B87;
-    background-color: #dcf0f8;
-    padding: 0.5rem;
-    text-align: center;
-    border-radius: 4px;
-    box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.3);
+  border: 1px inset #044B87;
+  background-color: #dcf0f8;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.3);
 }
 
-div.cards section{
-    display: grid;
-    text-align: center;
-    margin: 5px;
-    border-radius: 5px;
+div.cards section {
+  display: grid;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
 }
 
-div.cards section img{
-    margin: 10px auto;
+div.cards section img {
+  margin: 10px auto;
 }

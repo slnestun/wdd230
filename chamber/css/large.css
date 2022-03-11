@@ -123,6 +123,10 @@
         display: none;
     }
 
+    nav ul li a:hover {
+        background-color: #a8ccea;
+    }
+
 
     /*----Discover---*/
 
@@ -166,7 +170,9 @@
         padding: .4rem 0;
     }
 
-    form .information-form, form .business-form, form.options{
+    form .information-form,
+    form .business-form,
+    form.options {
         margin-left: 30%;
         margin-right: 30%;
     }
@@ -192,7 +198,7 @@
 
     .cards {
         display: grid;
-        grid-template-columns: repeat(3,1fr );
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
     }
 
