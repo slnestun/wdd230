@@ -45,16 +45,14 @@
         padding: 10px;
     }
 
-    .join-left button{
-        width: 100%;
-        border: none;
+    .join-left a{
+        display: block;
         border-radius: 10px;
-        margin: 15px 0px 15px 0px;
+        margin: 15px 0px;
+        text-decoration: none;
         padding: 10px;
-        text-align: center;
         font-size: 25px;
         font-weight: bold;
-        cursor: pointer;
         color: #FFFFFF;
         background-color: #044B87;
         box-shadow: 0px 0px 2px 2px  rgba(4, 75, 135, 0.35);

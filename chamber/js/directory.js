@@ -19,7 +19,7 @@ function displayBusiness(member) {
   let image = document.createElement("img");
   let address = document.createElement("p");
   let phone = document.createElement("p");
-  let site = document.createElement("p");
+  let site = document.createElement("a");
 
   card.setAttribute("class", "images");
   h2.textContent = `${member.name}`;
@@ -28,6 +28,8 @@ function displayBusiness(member) {
 
   address.textContent = `${member.address}`;
   phone.textContent = `${member.phone}`;
+  site.href = `${member.website}`;
+  site.target = "_blank";
   site.textContent = `${member.website}`;
 
   card.appendChild(image);

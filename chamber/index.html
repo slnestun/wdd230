@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
-    
+
 </head>
 
 <body>
@@ -59,14 +59,17 @@
             <div class="home-page">
                 <div class="main-img">
                     <picture>
-                        <source media="(max-width: 200px)" srcset="./images/wdd230-500.webp 500w" type="image/webp" />
-                        <source media="(max-width: 500px)" srcset="./images/wdd230-800.webp 800w" type="image/webp" />
-                        <source media="(max-width: 800px)" srcset="./images/wdd230-1200.webp 1200w" type="image/webp" />
+                        <source media="(max-width: 200px)" srcset="./images/wdd230-500.webp 500w" sizes="500px"
+                            type="image/webp" />
+                        <source media="(max-width: 500px)" srcset="./images/wdd230-800.webp 800w" sizes="800px"
+                            type="image/webp" />
+                        <source media="(max-width: 800px)" srcset="./images/wdd230-1200.webp 1200w" sizes="1200px"
+                            type="image/webp" />
                         <img src="./images/wdd230-1200.webp" alt="Meeting" />
                     </picture>
                     <div class="join-button">
                         <h2>Welcome to Villa Crespo</h2>
-                        <a href="./join.html"><button>Join the Chamber</button></a>
+                        <a href="./join.html" target="_blank">Join the Chamber</a>
                     </div>
                 </div>
 
@@ -114,7 +117,8 @@
                     </div>
                     <div class="spotlight-2">
                         <h3>School Specialty</h3>
-                        <div><img src="./images/school-backpack.webp" alt="school backpack" width="62" height="62"></div>
+                        <div><img src="./images/school-backpack.webp" alt="school backpack" width="62" height="62">
+                        </div>
                         <p>We transform your educational enviroment</p>
                         <hr>
                         <a href="#">School Specialty</a>
@@ -130,9 +134,7 @@
                     </div>
                 </article>
                 <div class="join-left">
-                    <a href="join.html">
-                        <button>Join Us!</button>
-                    </a>
+                    <a href="join.html" target="_blank">Join Us!</a>
                     <p>Find out how joining the chamber will benefit your organization!</p>
                 </div>
             </div>
@@ -140,7 +142,7 @@
         <footer class="footer-color">
             <div class="footer-chamber-inf">
                 <div class="footer-logo">
-                    <img src="./images/rsz_logo.png" alt="Villa Crespo Logo" height="71px" width="98px">
+                    <img src="./images/rsz_logo.png" alt="Villa Crespo Logo" height="71" width="98">
                 </div>
                 <div class="footer-direction">
                     <p class="bold-text">Villa Crespo Chamber of Commerce</p>
@@ -167,7 +169,7 @@
     <script src="./js/today-date.js"></script>
     <script src="./js/menu-ham.js"></script>
     <script src="./js/windchill.js"></script>
-    
+
 </body>
 
 </html>
