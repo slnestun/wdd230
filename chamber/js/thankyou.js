@@ -7,8 +7,6 @@ window.addEventListener("load", () => {
   const business = params.get("business");
   const position = params.get("position");
   const description = params.get("description");
-  const currentDate = params.get("currentDate");
-  const currentTime = params.get("currentTime");
   const audience = params.get("audience");
 
   document.getElementById("name-form").innerHTML = name;
@@ -19,6 +17,6 @@ window.addEventListener("load", () => {
   document.getElementById("business-position").innerHTML = position;
   document.getElementById("description-form").innerHTML = description;
   document.getElementById("membership-form").innerHTML = audience;
-  document.getElementById("date-form").innerHTML = currentDate;
-  document.getElementById("time-form").innerHTML = currentTime;
+  
+  
 });

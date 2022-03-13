@@ -387,3 +387,23 @@ div.cards section {
 div.cards section img {
   margin: 10px auto;
 }
+
+.thankyou-message{
+  background-color: #a8ccea;
+  margin: 20px 50px;
+  border-radius: 5px;
+  color: #044b87;
+}
+
+.thankyou-message h2{
+  text-align: center;
+  padding: 20px;
+}
+.thankyou-message p{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.thankyou-message span{
+  font-weight: 300;
+}
