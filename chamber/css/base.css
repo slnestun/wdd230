@@ -203,6 +203,10 @@ section {
   text-align: center;
 }
 
+figcaption{
+  text-transform: capitalize;
+}
+
 h3 {
   color: #044b87;
   text-shadow: 0 0 2px #ffffff;

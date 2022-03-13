@@ -8,7 +8,7 @@ fetch(apiURL)
     document.querySelector(".temperature").textContent = Math.round(
       jsObject.main.temp
     );
-    const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}@2x.png`;
     const desc = jsObject.weather[0].description;
     document.querySelector("#weathericon").setAttribute("src", iconsrc);
     document.querySelector("#weathericon").setAttribute("alt", desc);
