@@ -69,7 +69,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  background-color: rgb(168, 204, 234, 0.6);
+  background-color: rgb(220, 240, 248, 0.6);
   color: #ffffff;
 }
 
@@ -170,14 +170,14 @@ section {
 }
 
 .join-button a {
-  margin-top: -10%;
-  margin-left: 70%;
+  margin-top: -15%;
+  margin-left: 60%;
   position: absolute;
   text-decoration: none;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   color: #ffffff;
   background-color: #044b87;
   box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.35);
@@ -208,6 +208,7 @@ h3 {
   text-shadow: 0 0 2px #ffffff;
   margin: 5px auto 0px auto;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 p {
@@ -379,7 +380,7 @@ form label.top input:required:valid {
 div.cards section {
   display: grid;
   text-align: center;
-  margin: 5px;
+  margin: 10px 50px;
   border-radius: 5px;
 }
 
