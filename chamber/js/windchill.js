@@ -20,10 +20,10 @@ fetch(apiURL)
     let w = jsObject.wind.speed;
     if (t <= 10 && w > 4.83) {
       const windchill =
-        35.74 +
+        13.12 +
         0.6215 * t -
-        35.75 * Math.pow(w, 0.16) +
-        0.4275 * t * Math.pow(w, 0.16);
+        11.37 * Math.pow(w, 0.16) +
+        0.3965 * t * Math.pow(w, 0.16);
       document.querySelector(".windchill").innerHTML = `${Math.round(
         windchill
       )}&#176;C`;
