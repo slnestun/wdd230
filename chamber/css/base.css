@@ -65,7 +65,7 @@ nav ul li a {
   text-decoration: none;
   color: #044b87;
   border-top: 1px solid rgb(255, 255, 255);
-  font-size: 0.8rem;
+  font-size: 1em;
 }
 
 nav ul li.active a {
@@ -151,8 +151,10 @@ div#invite-chamber {
   background-color: #a8ccea;
   text-align: center;
   margin-top: 0.5rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding: 1rem;
+  font-weight: bold;
+  color: #044b87;
 }
 
 main img {
@@ -180,7 +182,7 @@ section {
   font-size: 15px;
   color: #ffffff;
   background-color: #044b87;
-  box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.35);
+  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
 }
 
 .join-button h2 {
@@ -203,7 +205,16 @@ section {
   text-align: center;
 }
 
-figcaption{
+.main-img img,
+.event-left,
+.weather-left,
+.news-release,
+.spotlight,
+.join-left {
+  box-shadow: 5px 5px 2px 2px rgba(4, 75, 135, 0.5);
+}
+
+figcaption {
   text-transform: capitalize;
 }
 
@@ -213,6 +224,7 @@ h3 {
   margin: 5px auto 0px auto;
   padding-top: 10px;
   padding-bottom: 10px;
+  
 }
 
 p {
@@ -257,7 +269,13 @@ hr {
 .count-visits {
   text-align: center;
   margin: 10px 0px 10px 0px;
-  font-size: 25px;
+  font-size: 2em;
+}
+
+.discover-photo{
+  background-color: #dcf0f8;
+  margin: 10px;
+  border-radius: 15px;
 }
 
 .discover-section {
@@ -277,7 +295,7 @@ hr {
   width: 0;
   min-width: 100%;
   margin: 10px -5px;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 /*---------- FORM ----------*/
@@ -366,7 +384,7 @@ form label.top input:required:valid {
   margin: 20px auto;
 }
 
-.cards {
+#cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 0.5rem;
@@ -378,36 +396,76 @@ form label.top input:required:valid {
   padding: 0.5rem;
   text-align: center;
   border-radius: 4px;
-  box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.3);
+  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.3);
 }
 
-div.cards section {
+div#cards section {
   display: grid;
   text-align: center;
   margin: 10px 50px;
   border-radius: 5px;
 }
 
-div.cards section img {
+div#cards section img {
   margin: 10px auto;
 }
 
-.thankyou-message{
+div#list section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #044b87;
+}
+
+div#list>section:nth-of-type(odd) {
+  background-color: #dcf0f8;;
+}
+
+div#list section a{
+  margin: 5px;
+  padding: 5px;
+}
+
+.directory-buttons{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
+.directory-buttons button{
+  margin: 10px;
+  background-color: #044b87;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 1em;
+  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
+}
+
+#cards.hidden, #list.hidden {
+  display: none;
+}
+
+.thankyou-message {
   background-color: #a8ccea;
   margin: 20px 50px;
   border-radius: 5px;
   color: #044b87;
 }
 
-.thankyou-message h2{
+.thankyou-message h2 {
   text-align: center;
   padding: 20px;
 }
-.thankyou-message p{
+
+.thankyou-message p {
   font-size: 1.3em;
   font-weight: bold;
 }
 
-.thankyou-message span{
+.thankyou-message span {
   font-weight: 300;
 }

@@ -49,7 +49,7 @@
         text-decoration: none;
         color: #FFFFFF;
         border-top: none;
-        font-size: .8rem;
+        font-size: 1em;
     }
 
     /*---------- MAIN ----------*/
@@ -70,6 +70,7 @@
     .join-left {
         grid-column: 1/2;
         grid-row: 3/4;
+        margin: 5px;
     }
 
     .main-img {
@@ -82,14 +83,14 @@
         grid-column: 2/4;
         grid-row: 3/4;
         padding: 10px;
-        margin: 0px;
+        margin: 5px;
     }
 
     .spotlight {
         grid-column: 4/5;
         grid-row: 1/4;
         display: grid;
-        margin-top: 5px;
+        margin: 5px;
     }
 
     .spotlight-1 {
@@ -125,13 +126,18 @@
 
     nav ul li a:hover {
         background-color: #a8ccea;
+        border-radius: 5px;
     }
+
+    nav ul li.active a {
+        border-radius: 5px;
+      }
 
 
     /*----Discover---*/
 
     .discover-section img:hover {
-        box-shadow: 0 0 50px #044B87;
+        box-shadow: 0 0 60px #044B87;
         border-radius: 20px;
     }
 
@@ -196,7 +202,7 @@
         padding-right: 5px;
     }
 
-    .cards {
+    #cards {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
