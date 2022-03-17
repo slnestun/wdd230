@@ -224,7 +224,7 @@ h3 {
   margin: 5px auto 0px auto;
   padding-top: 10px;
   padding-bottom: 10px;
-  
+
 }
 
 p {
@@ -272,7 +272,7 @@ hr {
   font-size: 2em;
 }
 
-.discover-photo{
+.discover-photo {
   background-color: #dcf0f8;
   margin: 10px;
   border-radius: 15px;
@@ -421,22 +421,23 @@ div#list section {
 }
 
 div#list>section:nth-of-type(odd) {
-  background-color: #dcf0f8;;
+  background-color: #dcf0f8;
+  ;
 }
 
-div#list section a{
+div#list section a {
   margin: 5px;
   padding: 5px;
 }
 
-.directory-buttons{
+.directory-buttons {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 1.3em;
   margin: 20px 0px;
 }
 
-.directory-buttons button{
+.directory-buttons button {
   margin: 10px;
   background-color: #044b87;
   color: #ffffff;
@@ -445,7 +446,8 @@ div#list section a{
   box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
 }
 
-#cards.hidden, #list.hidden {
+#cards.hidden,
+#list.hidden {
   display: none;
 }
 

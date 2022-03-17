@@ -12,6 +12,8 @@ fetch(apiURL)
     const desc = jsObject.weather[0].description;
     document.querySelector("#weathericon").setAttribute("src", iconsrc);
     document.querySelector("#weathericon").setAttribute("alt", desc);
+    document.querySelector("#weathericon").setAttribute("height", 100);
+    document.querySelector("#weathericon").setAttribute("width", 100);
     document.querySelector("figcaption").textContent = desc;
     document.querySelector(".windspeed").textContent =
       jsObject.wind.speed.toFixed(1);
