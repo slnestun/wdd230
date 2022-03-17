@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="autor" content="Nestor Rivera">
     <meta name="description"
-        content="This site will contain the directory page of chamber project for wdd230 course from byui">
+        content="This site will contain the join page of chamber project for wdd230 course from byui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Villa Crespo Chamber Site</title>
@@ -46,9 +46,9 @@
                     <ul id="primaryNav">
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./discover.html">Discover</a></li>
-                        <li class="active"><a href="#">Directory</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
                         <li><a href="./join.html">Join</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li class="active"><a href="#">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="date">
@@ -62,16 +62,24 @@
             <div id="invite-chamber">
                 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
             </div>
-            <div class="directory-main">
-                <h2 class="discover-title">Directory Villa Crespo</h2>
+            <h2 class="contact-us">Contact Us</h2>
+            <p class="contact-p">We’re here to help. Please fill out this form to contact us. Someone will get back to
+                you as soon as
+                possible. If you’d like to contact a specific member of</p>
+            <form method="get" action="./thankyou.html">
+                <fieldset class="contact-form">
+                    <legend>Contact Information</legend>
+                    <label class="top"> First Name*<input type="text" name="fname" required></label>
+                    <label class="top"> Last Name*<input type="text" name="lname" required></label>
+                    <label class="top"> Cell Phone<input type="tel" name="phone" placeholder="123555"></label>
+                    <label class="top"> Email*<input type="email" name="email" placeholder="@gmail.com"
+                            required></label>
+                    <label class="top"> Business Description<textarea name="description" maxlength="120" rows="5"
+                            placeholder="Max length 120 characters"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Join Villa Crespo" class="submitBtn">
 
-                <div class="directory-buttons">
-                    <button id="card-button">&#9871; Cards</button>
-                    <button id="list-button">&#9868; List</button>
-                </div>
-                <div id="cards"></div>
-                <div id="list" class="hidden"></div>
-            </div>
+            </form>
         </main>
 
 
@@ -104,7 +112,7 @@
     </div>
     <script src="./js/today-date.js"></script>
     <script src="./js/menu-ham.js"></script>
-    <script src="./js/directory.js"></script>
+    <script src="./js/join.js"></script>
 </body>
 
 </html>

@@ -131,7 +131,7 @@
 
     nav ul li.active a {
         border-radius: 5px;
-      }
+    }
 
 
     /*----Discover---*/
@@ -177,6 +177,7 @@
     }
 
     form .information-form,
+    form .contact-form,
     form .business-form,
     form.options {
         margin-left: 30%;

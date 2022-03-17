@@ -14,9 +14,9 @@
         margin-left: 45px;
         position: absolute;
         font-family: 'Roboto', sans-serif;
-        color: #044B87;
+        color: #FFFFFF;
         font-size: 2.3em;
-        text-shadow: 0 0 4px #FFFFFF;
+        text-shadow: 0 0 4px #044B87;
     }
 
     .join-button a {
@@ -119,26 +119,26 @@
         margin: 10px;
     }
 
-    figure{
+    figure {
         margin: 0;
     }
 
-    .weather-left h3{
+    .weather-left h3 {
         margin: 0;
         padding-bottom: 0;
     }
 
-    .weather-left p{
+    .weather-left p {
         padding: 0;
     }
 
-    div#list section{
+    div#list section {
         flex-direction: row;
         margin: 0px 30px;
         justify-content: space-evenly;
     }
 
-    #list h3{
+    #list h3 {
         padding: 5px;
         margin: 5px 15px;
     }
