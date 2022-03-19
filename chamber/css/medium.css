@@ -15,8 +15,8 @@
         position: absolute;
         font-family: 'Roboto', sans-serif;
         color: #FFFFFF;
-        font-size: 2.3em;
-        text-shadow: 0 0 4px #044B87;
+        font-size: 2.5em;
+        text-shadow: 1px 1px 2px black, 0 0 1em #044B87, 0 0 0.2em #044B87;
     }
 
     .join-button a {
@@ -105,8 +105,8 @@
     form .business-form,
     form .options {
         display: block;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     #cards {
