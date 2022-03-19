@@ -190,9 +190,9 @@ section {
   margin-left: 18px;
   position: absolute;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #575757;
   font-size: 1.3em;
-  text-shadow: 0 0 4px #ffffff;
+  text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #FFFFFF, 0 0 0.2em #FFFFFF;
 }
 
 .event-left,
