@@ -226,8 +226,8 @@ h3 {
   color: #044b87;
   text-shadow: 0 0 2px #ffffff;
   margin: 5px auto 0px auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
 }
 
@@ -264,7 +264,6 @@ hr {
 .spotlight-2 .urlLink,
 .spotlight-3 .urlLink {
   margin: 5px;
-  padding: 5px;
 }
 
 .spotlight-3,

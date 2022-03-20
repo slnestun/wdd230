@@ -96,7 +96,7 @@ function displayCards(randomMembership, spot) {
   image.setAttribute("src", randomMembership.logo);
   image.setAttribute("alt", `${randomMembership.name} Logo`);
   image.setAttribute("height", `62`);
-  image.setAttribute("width", `$62`);
+  image.setAttribute("width", `62`);
   div1.setAttribute("class", "urlLink");
 
   address.textContent = `${randomMembership.address}`;
