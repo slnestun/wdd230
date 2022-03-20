@@ -134,6 +134,10 @@ nav ul.open {
   font-weight: lighter;
 }
 
+.modification {
+  margin-bottom: 0px;
+}
+
 .bold-text {
   font-weight: bolder;
 }
@@ -255,8 +259,12 @@ hr {
 }
 
 .spotlight-1 p,
-.spotlight-2 p {
-  padding-bottom: 5px;
+.spotlight-2 p,
+.spotlight-1 .urlLink,
+.spotlight-2 .urlLink,
+.spotlight-3 .urlLink {
+  margin: 5px;
+  padding: 5px;
 }
 
 .spotlight-3,
