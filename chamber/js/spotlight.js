@@ -90,7 +90,7 @@ function displayCards(randomMembership, spot) {
   let site = document.createElement("a");
   let phone = document.createElement("p");
   let div1 = document.createElement("div");
-  let address = document.createElement("a");
+  let address = document.createElement("p");
 
   h3.textContent = `${randomMembership.name}`;
   image.setAttribute("src", randomMembership.logo);
