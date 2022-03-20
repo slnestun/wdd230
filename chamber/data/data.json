@@ -5,84 +5,96 @@
             "address": "Av. Corrientes 5215, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://burguerking.com.ar",
-            "logo": "./images/burguer-king-logo.webp"
+            "logo": "./images/burguer-king-logo.webp",
+            "level": "Gold"
         },
         {
             "name": "McDonald's",
             "address": "Av. Corriente 5230, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://mcdonalds.com.ar",
-            "logo": "./images/mcdonalds-logo.webp"
+            "logo": "./images/mcdonalds-logo.webp",
+            "level": "Silver"
         },
         {
             "name": "El Club de la Milanesa",
             "address": "Av Corrientes 5136, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://elclubdelamilanesa.com",
-            "logo": "./images/club-milanesa-logo.webp"
+            "logo": "./images/club-milanesa-logo.webp",
+            "level": "Bronze"
         },
         {
             "name": "Grimoldi Outlet",
             "address": "Aguirre 759, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://grimoldi.com",
-            "logo": "./images/grimoldi-logo.webp"
+            "logo": "./images/grimoldi-logo.webp",
+            "level": "Non-profit"
         },
         {
             "name": "Puma Outlet",
             "address": "Aguirre 806c CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://ar.puma.com",
-            "logo": "./images/puma-logo.webp"
+            "logo": "./images/puma-logo.webp",
+            "level": "Gold"
         },
         {
             "name": "Lacoste Outlet",
             "address": "Aguirre 875, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://www.lacoste.com/ar/",
-            "logo": "./images/lacoste-logo.webp"
+            "logo": "./images/lacoste-logo.webp",
+            "level": "Silver"
         },
         {
             "name": "Farmacity",
             "address": "Av. Córdoba 4601, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://farmacity.com.ar",
-            "logo": "./images/farmacity-logo.webp"
+            "logo": "./images/farmacity-logo.webp",
+            "level": "Bronze"
         },
         {
             "name": "Farmacias Dr. Ahorro",
             "address": "Av. Estado de Israel 4790, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://farmaciasdrahorro.com",
-            "logo": "./images/dr-ahorro-logo.webp"
+            "logo": "./images/dr-ahorro-logo.webp",
+            "level": "Non-profit"
         },
         {
             "name": "Freddo",
             "address": "Av. Scalabrini Ortiz 1132, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://freddo.com.ar",
-            "logo": "./images/freddo-logo.webp"
+            "logo": "./images/freddo-logo.webp",
+            "level": "Gold"
         },
         {
             "name": "Ribeiro",
             "address": "Av. Corrientes 4678, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://ribeiro.com.ar",
-            "logo": "./images/ribeiro-logo.webp"
+            "logo": "./images/ribeiro-logo.webp",
+            "level": "Silver"
         },
         {
             "name": "Andreani",
             "address": "Av. Scalabrini Ortiz 615, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://andreani.com",
-            "logo": "./images/andreani-logo.webp"
+            "logo": "./images/andreani-logo.webp",
+            "level": "Bronze"
         },
         {
             "name": "BabyMovil",
             "address": "Yatay 1041, CP 1414, CABA",
             "phone": "(11)1234-5678",
             "website": "https://babymovil.com.ar",
-            "logo": "./images/babymovil-logo.webp"
+            "logo": "./images/babymovil-logo.webp",
+            "level": "Non-profit"
         }
     ]
 }
