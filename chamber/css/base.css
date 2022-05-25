@@ -151,6 +151,16 @@ nav ul.open {
   margin: 10px 20px 10px 20px;
 }
 
+div#invite-chamber {
+  background-color: #a8ccea;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: #044b87;
+}
+
 main img {
   max-width: 100%;
   border-radius: 10px;
