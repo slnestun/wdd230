@@ -265,3 +265,38 @@ hr {
 .join-left {
   display: none;
 }
+
+/*---------- Discover page ----------*/
+.discover-title,
+.count-visits {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  font-size: 2em;
+}
+
+.discover-photo {
+  background-color: #dcf0f8;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.discover-section {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.discover-section img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.discover-photo p {
+  width: 0;
+  min-width: 100%;
+  margin: 10px -5px;
+  font-size: 1.3em;
+}

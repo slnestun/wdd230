@@ -9,6 +9,32 @@
         grid-column: 1/5;
     }
 
+    .join-button h2 {
+        margin-top: -65%;
+        margin-left: 45px;
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 2.3em;
+        text-shadow: 0 0 4px #044B87;
+    }
+
+    .join-button a {
+        margin-top: -10%;
+        margin-left: 70%;
+        position: absolute;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #044B87;
+        box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.35);
+    }
+
+
     .news-release {
         grid-column: 1/5;
         grid-row: 2/3;

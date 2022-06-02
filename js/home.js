@@ -20,18 +20,18 @@ myLessons = {
     },
     {
       lessons: "Lesson 05: ",
-      linkName: "",
-      link: "",
+      linkName: "BOM",
+      link: "./bom/index.html",
     },
     {
       lessons: "Lesson 06: ",
-      linkName: "",
-      link: "",
+      linkName: "Camber of comerce Home",
+      link: "./chamber/index.html",
     },
     {
       lessons: "Lesson 07: ",
-      linkName: "",
-      link: "",
+      linkName: "Lazy Loading",
+      link: "./lesson7/lazyload.html",
     },
     {
       lessons: "Lesson 08: ",
