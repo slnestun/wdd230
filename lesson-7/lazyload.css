@@ -47,13 +47,21 @@ h2 {
     text-align: center;
 }
 
-section {
+.lazy-loading {
     display: grid;
     justify-content: center;
+    width: 100%;
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+.lazy-loading:hover{
+    width: 150%;
 }
 
 .pictures {
     margin: auto;
+    transition:  5s;
 }
 
 [data-src] {
