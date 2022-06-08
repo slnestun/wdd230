@@ -51,17 +51,13 @@ h2 {
     display: grid;
     justify-content: center;
     width: 100%;
-    transition: width 3s;
-    transition-delay: 1s;
 }
 
-.lazy-loading:hover{
-    width: 150%;
-}
-
-.pictures {
-    margin: auto;
-    transition:  5s;
+img {
+    border: 1px solid #333;
+    padding: 2px;
+    filter: blur(0em);
+    transition:  filter 0.5s;
 }
 
 [data-src] {

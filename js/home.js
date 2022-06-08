@@ -31,12 +31,22 @@ myLessons = {
     {
       lessons: "Lesson 07: ",
       linkName: "Lazy Loading",
-      link: "./lesson7/lazyload.html",
+      link: "./lesson-7/lazyload.html",
+    },
+    {
+      lessons: "Lesson 07: ",
+      linkName: "Discover Page",
+      link: "./chamber/discover.html",
     },
     {
       lessons: "Lesson 08: ",
-      linkName: "",
-      link: "",
+      linkName: "Table Build",
+      link: "./lesson-8/tablebuild.html",
+    },
+    {
+      lessons: "Lesson 08: ",
+      linkName: "Table Build",
+      link: "./lesson-8/tablebuild.html",
     },
     {
       lessons: "Lesson 09: ",
