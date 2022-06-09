@@ -96,3 +96,7 @@ table thead tr th {
 table tfoot tr td {
     font-size: 0.8rem;
 }
+
+.darkblue{
+    background-color: yellow;
+}
