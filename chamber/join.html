@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Nestor Rivera">
+    <meta name="description"
+        content="This site will contain the join page of chamber project for wdd230 course from byui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Crespo Chamber Site</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+
+
+<body>
+    <div class="center-home">
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <img src="./images/rsz_logo.webp" alt="Villa Crespo Chamber " height="35" width="49" />
+                </div>
+                <div class="chamber-name">
+                    <h1>Villa Crespo</h1>
+                    <p>Chamber Of Commerce</p>
+                </div>
+                <div class="social-media">
+                    <div class="facebook-logo">
+                        <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-logo.webp"
+                                alt="facebook logo" height="32" width="32"></a>
+                    </div>
+                    <div class="linkedin-logo">
+                        <a href="https://www.linkedin.com" target="_blank"><img src="./images/linkedin-logo.webp"
+                                alt="linkedin logo" height="32" width="32"></a>
+                    </div>
+                </div>
+                <nav>
+                    <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./discover.html">Discover</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
+                        <li class="active"><a href="#">Join</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="date">
+
+                </div>
+
+            </div>
+
+        </header>
+        <main>
+            <div id="invite-chamber">
+                🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            </div>
+            <h2 class="chamber-join">Join the Chamber</h2>
+            <form method="get" action="./thankyou.html">
+                <fieldset class="information-form">
+                    <legend>Applicant Information</legend>
+                    <label class="top"> First Name*<input type="text" name="fname" required></label>
+                    <label class="top"> Last Name*<input type="text" name="lname" required></label>
+                    <label class="top"> Cell Phone<input type="tel" name="phone" required placeholder="123555"></label>
+                    <label class="top"> Email*<input type="email" name="email" placeholder="@gmail.com"
+                            required></label>
+                </fieldset>
+                <fieldset class="business-form">
+                    <legend>Business information</legend>
+                    <label class="top"> Business Name*<input type="text" name="business" required></label>
+                    <label class="top"> Business Position<input type="text" name="position"
+                            pattern="[A-Za-z\s-]{7,}"></label>
+                    <label class="top"> Business Description<textarea name="description" maxlength="120" rows="5"
+                            placeholder="Max length 120 characters"></textarea></label>
+                    <label><input type="hidden" name = "current-date" id="current-date" value=""></label>
+                </fieldset>
+                <fieldset class="options">
+                    <legend>Membership options</legend>
+                    <div class="member-options">
+                        <label class="sbs"><input type="radio" name="audience" value="free"><span
+                                class="level">Non-profit</span> Free</label>
+                        <ul>
+                            <li>Welcome on the Facebook page</li>
+                            <li>Post your events on the online calendar</li>
+                            <li>Monthly e-newsletter</li>
+                            <li>Participate in leads groups (subject to eligibility)</li>
+                        </ul>
+                        <label class="sbs"><input type="radio" name="audience" value="bronze"><span
+                                class="level">Bronze</span> $200/month</label>
+                        <ul>
+                            <li>Everything in the Non Profit Membership</li>
+                            <li>Free certificates of origin</li>
+                            <li>Ability to advertise in the e-newsletter</li>
+                            <li>Offer "hot deals" discounts to chamber members</li>
+                        </ul>
+                        <label class="sbs"><input type="radio" name="audience" value="silver"><span
+                                class="level">Silver</span> $250/month</label>
+                        <ul>
+                            <li>Everything in the Bronze Membership</li>
+                            <li>Ribbon-Cutting or Grand Opening event</li>
+                            <li>Annual strategy meeting with Chamber staff and/or Board</li>
+                            <li>Free tickets to the Annual Awards event</li>
+                        </ul>
+                        <label class="sbs"><input type="radio" name="audience" value="gold"><span
+                                class="level">Gold</span>
+                            $500/month</label>
+                        <ul>
+                            <li>Everything in the Silver Membership</li>
+                            <li>Opportunity to present at a Chamber board meeting</li>
+                            <li>First crack at sponsorship of signature events</li>
+                            <li>Logo on dedicated "Platinum Sponsors" page in Welcome to Superior Guide</li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Join Villa Crespo" class="submitBtn">
+
+            </form>
+        </main>
+
+
+        <footer class="footer-color">
+            <div class="footer-chamber-inf">
+                <div class="footer-logo">
+                    <img src="./images/rsz_logo.png" alt="Villa Crespo Logo" height="71" width="98">
+                </div>
+                <div class="footer-direction">
+                    <p class="bold-text">Villa Crespo Chamber of Commerce</p>
+                    <p>Julian Alvarez 1234</p>
+                    <p>Argentina, CABA</p>
+                </div>
+                <div class="footer-contact">
+                    <p>info@villacrespo.com</p>
+                    <p>+54 (11) 1234- 4567</p>
+                    <p>📍 Location Map</p>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-course-inf">
+                <div class="footer-data">
+                    <p class="copyright">&copy; <span id="year"></span> Villa Crespo Chamber</p>
+                    <p class="bold-text">Nestor A. Rivera</p>
+                    <p>WDD230 Project</p>
+                    <p>Last Modification: <span id="currentDate"></span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/today-date.js"></script>
+    <script src="./js/menu-ham.js"></script>
+    <script src="./js/join.js"></script>
+    <script src="./js/banner.js"></script>
+</body>
+
+</html>

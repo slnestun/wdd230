@@ -110,5 +110,36 @@
     .weather-left p {
         padding: 0;
     }
+    form .information-form,
+    form .business-form,
+    form .options {
+        display: block;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
 
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5rem;
+    }
+
+    div#cards section {
+        margin: 10px;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    div#list section {
+        flex-direction: row;
+        margin: 0px 30px;
+        justify-content: space-evenly;
+    }
+
+    #list h3 {
+        padding: 5px;
+        margin: 5px 15px;
+    }
 }

@@ -169,4 +169,42 @@
         border-left: 1px solid #FFFFFF;
     }
 
+        /*---------- FORM ----------*/
+        form label.sbs {
+            padding: .4rem 0;
+        }
+    
+        form .information-form,
+        form .contact-form,
+        form .business-form,
+        form.options {
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+    
+        .member-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    
+        .member-options ul {
+            list-style: none;
+            display: block;
+            margin-top: 0;
+            padding: 0.4rem 0;
+            font-size: 1.3em;
+        }
+    
+        .member-options ul li:before {
+            content: '\2714\0020';
+            color: #044B87;
+            padding-right: 5px;
+        }
+    
+        #cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
 }
