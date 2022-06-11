@@ -45,8 +45,8 @@ myLessons = {
     },
     {
       lessons: "Lesson 08: ",
-      linkName: "Table Build",
-      link: "./lesson-8/tablebuild.html",
+      linkName: "Join Chamber",
+      link: "./chamber/join.html",
     },
     {
       lessons: "Lesson 09: ",
