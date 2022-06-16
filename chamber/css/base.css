@@ -389,3 +389,97 @@ form label.top input:required:valid {
   display: none;
 }
 
+/*---------- DISCOVER ----------*/
+
+.directory-main {
+  max-width: 60em;
+  margin: 20px auto;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.images {
+  border: 1px inset #044B87;
+  background-color: #dcf0f8;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.3);
+}
+
+div#cards section {
+  display: grid;
+  text-align: center;
+  margin: 10px 50px;
+  border-radius: 5px;
+}
+
+div#cards section img {
+  margin: 10px auto;
+}
+
+div#list section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #044b87;
+}
+
+div#list>section:nth-of-type(odd) {
+  background-color: #dcf0f8;
+  ;
+}
+
+div#list section a {
+  margin: 5px;
+  padding: 5px;
+}
+
+.directory-buttons {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
+.directory-buttons button {
+  margin: 10px;
+  background-color: #044b87;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 1em;
+  box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
+}
+
+#cards.hidden,
+#list.hidden {
+  display: none;
+}
+
+.thankyou-message {
+  background-color: #a8ccea;
+  margin: 20px 50px;
+  border-radius: 5px;
+  color: #044b87;
+}
+
+.thankyou-message h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.thankyou-message p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.thankyou-message span {
+  font-weight: 300;
+}
