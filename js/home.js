@@ -50,8 +50,13 @@ myLessons = {
     },
     {
       lessons: "Lesson 09: ",
-      linkName: "",
-      link: "",
+      linkName: "Working with JSON data and the Fetch API",
+      link: "./lesson-9/prophets.html",
+    },
+    {
+      lessons: "Lesson 09: ",
+      linkName: "The Business Directory Page",
+      link: "./chamber/directory.html",
     },
     {
       lessons: "Lesson 10: ",
