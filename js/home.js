@@ -60,10 +60,15 @@ myLessons = {
     },
     {
       lessons: "Lesson 10: ",
+      linkName: "The Weather API",
+      link: "./lesson-10/weather-api.html",
+    },
+    {
+      lessons: "Lesson 10: ",
       linkName: "",
       link: "",
     },
-    {
+      {
       lessons: "Lesson 11: ",
       linkName: "",
       link: "",
