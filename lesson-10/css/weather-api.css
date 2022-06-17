@@ -1,0 +1,20 @@
+
+h1{
+    text-shadow: 2px 2px 5px blue;
+    text-decoration: underline;
+}
+h1,p,figure{
+    text-align:justify;
+    margin-left: 20px;
+}
+p{
+    font-size: 1.3em;
+}
+
+.condition{
+    font-weight: bold;
+}
+figcaption{
+    text-transform: capitalize;
+    font-size: 1.3em;
+}
