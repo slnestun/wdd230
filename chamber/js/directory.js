@@ -57,8 +57,8 @@ function displayCards(member) {
   h2.textContent = `${member.name}`;
   image.setAttribute("src", member.logo);
   image.setAttribute("alt", `${member.name} Logo`);
-  image.setAttribute("height", `125`);
-  image.setAttribute("width", `$125`);
+  image.setAttribute("height", `62`);
+  image.setAttribute("width", `62`);
 
   address.textContent = `${member.address}`;
   phone.textContent = `${member.phone}`;
