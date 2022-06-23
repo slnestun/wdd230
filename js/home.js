@@ -66,7 +66,7 @@ myLessons = {
     {
       lessons: "Lesson 10: ",
       linkName: "Using the weather API",
-      link: "./camber/index.html",
+      link: "./chamber/index.html",
     },
       {
       lessons: "Lesson 11: ",
