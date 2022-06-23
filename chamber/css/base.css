@@ -171,8 +171,8 @@ main img {
 }
 
 .join-button a {
-  margin-top: -15%;
-  margin-left: 60%;
+  margin-top: -18%;
+  margin-left: 55%;
   position: absolute;
   text-decoration: none;
   border-radius: 10px;
@@ -348,7 +348,7 @@ form label.top textarea {
   border-radius: 4px;
   padding: 15px 0px 15px 5px;
   color: #555;
-  width: 100%;
+  width: 95%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
 }

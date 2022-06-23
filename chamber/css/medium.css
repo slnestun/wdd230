@@ -20,6 +20,11 @@
         font-size: 25px;
         cursor: pointer;
     }
+    form label.top input,
+    form label.top select,
+    form label.top textarea {
+        max-width: none;
+    }
 
 
     .news-release {
