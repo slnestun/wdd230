@@ -47,9 +47,11 @@ function displayCards(member) {
   let cardView = document.createElement("section");
   let h2 = document.createElement("h2");
   let image = document.createElement("img");
+  let membership = document.createElement("p");
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let site = document.createElement("a");
+  
 
   cardView.setAttribute("class", "images");
   h2.textContent = `${member.name}`;
@@ -63,8 +65,10 @@ function displayCards(member) {
   site.href = `${member.website}`;
   site.target = "_blank";
   site.textContent = `${member.website}`;
+  membership.textContent = `Membership: ${member.level}`; 
 
   cardView.appendChild(image);
+  cardView.appendChild(membership)
   cardView.appendChild(address);
   cardView.appendChild(phone);
   cardView.appendChild(site);
