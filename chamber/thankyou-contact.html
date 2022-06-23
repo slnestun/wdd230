@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="autor" content="Nestor Rivera">
     <meta name="description"
-        content="This site will contain the home of chamber commerce project for wdd230 course from byui">
+        content="This site will contain the thankyou page of chamber project for wdd230 course from byui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Villa Crespo Chamber Site</title>
@@ -17,16 +17,15 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
-
 </head>
+
 
 <body>
     <div class="center-home">
         <header>
             <div class="header-content">
                 <div class="logo">
-                    <a href="./index.html" target="_self"><img src="./images/rsz_logo.webp" alt="Villa Crespo Chamber "
-                            height="35" width="49" /></a>
+                    <img src="./images/rsz_logo.webp" alt="Villa Crespo Chamber " height="35" width="49" />
                 </div>
                 <div class="chamber-name">
                     <h1>Villa Crespo</h1>
@@ -45,7 +44,7 @@
                 <nav>
                     <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
                     <ul id="primaryNav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./discover.html">Discover</a></li>
                         <li><a href="./directory.html">Directory</a></li>
                         <li><a href="./join.html">Join</a></li>
@@ -63,75 +62,18 @@
             <div id="invite-chamber">
                 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
             </div>
-            <div class="home-page">
-                <div class="main-img">
-                    <picture>
-                        <source media="(max-width: 200px)" srcset="./images/hero-image-500.webp 500w" sizes="500px"
-                            type="image/webp" />
-                        <source media="(max-width: 500px)" srcset="./images/hero-image-800.webp 800w" sizes="800px"
-                            type="image/webp" />
-                        <source media="(max-width: 800px)" srcset="./images/hero-image-1200.webp 1200w" sizes="1200px"
-                            type="image/webp" />
-                        <img src="./images/hero-image-1200.webp" alt="Villa Crespo" style="width: auto;" />
-                    </picture>
-                    <div class="join-button">
-                        <h2>Welcome to Villa Crespo</h2>
-                        <a href="./join.html" target="_blank">Join the Chamber</a>
-                    </div>
-                </div>
-
-                <section class="event-left">
-                    <h3>Ribbon Cutting</h3>
-                    <p>The Shrieking Shack</p>
-                    <p>
-                        Join us for the grand re-opening of the Shrieking Shack, now
-                        remodeled!
-                    </p>
-                    <p>more info...</p>
-                </section>
-                <div class="weather-left">
-                    <h3>Weather</h3>
-                    <div>
-                        <figure>
-                            <img src="#" alt="" id="weathericon" />
-                            <figcaption></figcaption>
-                        </figure>
-                    </div>
-                    <div class="temp">
-                        <p><span class="temperature"></span>&#176;C</p>
-                        <hr>
-                        <div class="wind">
-                            <p>Wind Speed: <span class="windspeed"></span> Km/h</p>
-                            <p>Wind Chill: <span class="windchill"></span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news-release">
-                    <h3>Latest News</h3>
-                    <p>
-                        Next week we will have our monthly welcome meeting for new members, as well as the anniversary
-                        seremony of our community.
-
-                        We will be waiting for you!
-                    </p>
-                </div>
-                <div class="spotlight">
-                    <div class="spotlight-1">
-
-                    </div>
-                    <div class="spotlight-2">
-
-                    </div>
-                    <div class="spotlight-3">
-
-                    </div>
-                </div>
-                <div class="join-left">
-                    <a href="./join.html" target="_blank">Join Us!</a>
-                    <p>Find out how joining the chamber will benefit your organization!</p>
-                </div>
+            <div class="thankyou-message">
+                <h2>Thank you for contact Villa Crespo Chamber</h2>
+                <p>First name: <span id="name-form"></span></p>
+                <p>Last name: <span id="lastName-form"></span></p>
+                <p>Cellphone name: <span id="cellphone-form"></span></p>
+                <p>Email: <span id="email-form"></span></p>
+                <p>Description: <span id="description-form"></span></p>
+                <p>Date: <span id="date-form"></span></p>
             </div>
         </main>
+
+
         <footer class="footer-color">
             <div class="footer-chamber-inf">
                 <div class="footer-logo">
@@ -154,17 +96,15 @@
                     <p class="copyright">&copy; <span id="year"></span> Villa Crespo Chamber</p>
                     <p class="bold-text">Nestor A. Rivera</p>
                     <p>WDD230 Project</p>
-                    <p class="modification">Last Modification: <span id="currentDate"></span></p>
+                    <p>Last Modification: <span id="currentDate"></span></p>
                 </div>
             </div>
         </footer>
     </div>
     <script src="./js/today-date.js"></script>
     <script src="./js/menu-ham.js"></script>
+    <script src="./js/thankyou-contact.js"></script>
     <script src="./js/banner.js"></script>
-    <script src="./js/windchill.js"></script>
-    <script src="./js/spotlight.js"></script>
-
 </body>
 
 </html>

@@ -10,28 +10,15 @@
     }
 
     .join-button h2 {
-        margin-top: -65%;
         margin-left: 45px;
-        position: absolute;
-        font-family: 'Roboto', sans-serif;
-        color: #FFFFFF;
-        font-size: 2.3em;
-        text-shadow: 0 0 4px #044B87;
+        font-size: 3em;
     }
 
     .join-button a {
         margin-top: -10%;
         margin-left: 70%;
-        position: absolute;
-        border: none;
-        border-radius: 10px;
-        padding: 10px;
-        text-align: center;
         font-size: 25px;
         cursor: pointer;
-        color: #FFFFFF;
-        background-color: #044B87;
-        box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.35);
     }
 
 
@@ -102,20 +89,12 @@
         margin: 15px 15px 15px 0px;
     }
 
-    .weather-left h3 {
-        margin: 0;
-        padding-bottom: 0;
-    }
-
-    .weather-left p {
-        padding: 0;
-    }
     form .information-form,
     form .business-form,
     form .options {
         display: block;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     #cards {
@@ -130,6 +109,14 @@
 
     figure {
         margin: 0;
+    }
+    .weather-left h3 {
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .weather-left p {
+        padding: 0;
     }
 
     div#list section {
