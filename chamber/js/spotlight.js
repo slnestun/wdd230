@@ -86,7 +86,6 @@ function displayCards(randomMembership, spot) {
   let h3 = document.createElement("h3");
   let div = document.createElement("div");
   let image = document.createElement("img");
-  let membership = document.createElement("p");
   let hr = document.createElement("hr");
   let site = document.createElement("a");
   let phone = document.createElement("p");
@@ -105,12 +104,10 @@ function displayCards(randomMembership, spot) {
   site.href = `${randomMembership.website}`;
   site.target = "_blank";
   site.textContent = `${randomMembership.name}`;
-  membership.textContent = `Membership: ${randomMembership.level}`;
 
   spot.appendChild(h3);
   spot.appendChild(div);
   div.appendChild(image);
-  spot.appendChild(membership);
   spot.appendChild(address);
   spot.appendChild(hr);
   spot.appendChild(phone);
