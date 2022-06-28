@@ -43,7 +43,6 @@ fetch(requestURL)
   });
 
 function displayCards(member) {
-  //Create elements to add info from json
   let cardView = document.createElement("section");
   let h2 = document.createElement("h2");
   let image = document.createElement("img");
@@ -51,22 +50,18 @@ function displayCards(member) {
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let site = document.createElement("a");
-  
-
   cardView.setAttribute("class", "images");
   h2.textContent = `${member.name}`;
   image.setAttribute("src", member.logo);
   image.setAttribute("alt", `${member.name} Logo`);
   image.setAttribute("height", `62`);
   image.setAttribute("width", `62`);
-
   address.textContent = `${member.address}`;
   phone.textContent = `${member.phone}`;
   site.href = `${member.website}`;
   site.target = "_blank";
   site.textContent = `${member.website}`;
   membership.textContent = `Membership: ${member.level}`; 
-
   cardView.appendChild(image);
   cardView.appendChild(membership)
   cardView.appendChild(address);
@@ -74,23 +69,17 @@ function displayCards(member) {
   cardView.appendChild(site);
   document.querySelector("#cards").appendChild(cardView);
 }
-
 function displayList(member) {
-  //Create elements to add to the document
   let listview = document.createElement("section");
   let h4 = document.createElement("h3");
   let p1 = document.createElement("p");
   let p2 = document.createElement("p");
   let a = document.createElement("a");
-
-  //Add text content to the directory cards
   h4.textContent = `${member.name}`;
   p1.textContent = `${member.address}`;
   p2.textContent = `${member.phone}`;
   a.textContent = `${member.website}`;
   a.setAttribute("href", member.website);
-
-  //Add/append the h2 and image to the section(card)
   listview.appendChild(h4);
   listview.appendChild(p1);
   listview.appendChild(p2);

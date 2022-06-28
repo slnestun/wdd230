@@ -2,7 +2,6 @@
 header {
   background-color: #044b87;
 }
-
 .header-content {
   font-family: "Roboto", sans-serif;
   padding-top: 10px;
@@ -12,35 +11,28 @@ header {
   align-items: center;
   flex-flow: row wrap;
 }
-
 .logo {
   margin: 0px 10px 0px 10px;
 }
-
 .chamber-name {
   color: #ffffff;
 }
-
 .chamber-name h1 {
   margin: auto;
   font-size: 20px;
 }
-
 .chamber-name p {
   margin: auto;
   font-size: 16px;
 }
-
 .social-media {
   display: flex;
   justify-content: space-between;
 }
-
 .facebook-logo,
 .linkedin-logo {
   margin: 0px 10px 0px 10px;
 }
-
 nav button {
   margin: 0.2rem 2vw;
   background: transparent;
@@ -48,7 +40,6 @@ nav button {
   font-size: 2rem;
   color: #ffffff;
 }
-
 nav ul {
   list-style-type: none;
   position: absolute;
@@ -58,7 +49,6 @@ nav ul {
   width: 100%;
   background-color: #a8ccea;
 }
-
 nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
@@ -67,40 +57,31 @@ nav ul li a {
   border-top: 1px solid rgb(255, 255, 255);
   font-size: 1em;
 }
-
 nav ul li.active a {
   background-color: rgb(220, 240, 248, 0.6);
   color: #ffffff;
 }
-
 nav ul li a:hover {
   background-color: #dcf0f8;
 }
-
 nav ul {
   display: none;
 }
-
 nav ul.open {
   display: block;
 }
-
 #hamburguerBtn span:nth-child(1) {
   display: block;
 }
-
 #hamburguerBtn span:nth-child(2) {
   display: none;
 }
-
 #hamburguerBtn.open span:nth-child(1) {
   display: none;
 }
-
 #hamburguerBtn.open span:nth-child(2) {
   display: block;
 }
-
 .date {
   padding: 10px 20%;
   font-weight: 400;
@@ -108,23 +89,19 @@ nav ul.open {
   border: 1px solid #bbb;
   background-color: #eee;
 }
-
 /*----------Footer Styles----------*/
 .footer-color {
   background-color: #044b87;
 }
-
 .footer-logo {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
-
 .footer-color img,
 .header-content img {
   border-radius: 5px;
 }
-
 .footer-direction,
 .footer-contact,
 .footer-data {
@@ -133,15 +110,20 @@ nav ul.open {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
 }
-
+.footer-course-inf p{
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.footer-course-inf a{
+  color: #ffffff;
+}
 .modification {
   margin-bottom: 0px;
 }
-
 .bold-text {
   font-weight: bolder;
 }
-
 /*---------- Main ----------*/
 .home-page {
   display: grid;
@@ -150,7 +132,6 @@ nav ul.open {
   padding: 0.5em;
   margin: 10px 20px 10px 20px;
 }
-
 div#invite-chamber {
   background-color: #a8ccea;
   text-align: center;
@@ -160,16 +141,13 @@ div#invite-chamber {
   font-weight: bold;
   color: #044b87;
 }
-
 main img {
   max-width: 100%;
   border-radius: 10px;
 }
-
 .main-img {
   position: relative;
 }
-
 .join-button a {
   margin-top: -18%;
   margin-left: 55%;
@@ -183,7 +161,6 @@ main img {
   background-color: #044b87;
   box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
 }
-
 .join-button h2 {
   margin-top: -65%;
   margin-left: 18px;
@@ -193,7 +170,6 @@ main img {
   font-size: 1.3em;
   text-shadow: 1px 1px 2px #FFFFFF, 0 0 1em #FFFFFF, 0 0 0.2em #FFFFFF;
 }
-
 .event-left,
 .weather-left,
 .news-release,
@@ -203,7 +179,6 @@ main img {
   font-size: 20px;
   text-align: center;
 }
-
 .main-img img,
 .event-left,
 .weather-left,
@@ -212,11 +187,9 @@ main img {
 .join-left {
   box-shadow: 5px 5px 2px 2px rgba(4, 75, 135, 0.5);
 }
-
 figcaption {
   text-transform: capitalize;
 }
-
 h3 {
   color: #044b87;
   text-shadow: 0 0 2px #ffffff;
@@ -225,18 +198,15 @@ h3 {
   padding-bottom: 5px;
 
 }
-
 p {
   margin: 5px;
   padding: 5px;
 }
-
 hr {
   height: 1px;
   background-color: #ffffff;
   border: none;
 }
-
 .spotlight-1,
 .spotlight-2,
 .spotlight-3 {
@@ -244,15 +214,12 @@ hr {
   background-color: #a8ccea;
   box-shadow: 0px 0px 2px 2px rgba(4, 75, 135, 0.5);
 }
-
 .spotlight-1 {
   margin: 15px 15px 0px 15px;
 }
-
 .spotlight-2 {
   margin: 0px 15px 15px 15px;
 }
-
 .spotlight-1 p,
 .spotlight-2 p,
 .spotlight-1 .urlLink,
@@ -260,12 +227,10 @@ hr {
 .spotlight-3 .urlLink {
   margin: 5px;
 }
-
 .spotlight-3,
 .join-left {
   display: none;
 }
-
 /*---------- Discover page ----------*/
 .discover-title,
 .count-visits {
@@ -273,13 +238,11 @@ hr {
   margin: 10px 0px 10px 0px;
   font-size: 2em;
 }
-
 .discover-photo {
   background-color: #dcf0f8;
   margin: 10px;
   border-radius: 15px;
 }
-
 .discover-section {
   margin: 20px 20px;
   display: flex;
@@ -287,20 +250,17 @@ hr {
   align-items: center;
   text-align: center;
 }
-
 .discover-section img {
   border-radius: 5px;
   max-width: 100%;
   height: auto;
 }
-
 .discover-photo p {
   width: 0;
   min-width: 100%;
   margin: 10px -5px;
   font-size: 1.3em;
 }
-
 /*---------- FORM ----------*/
 .chamber-join,
 .contact-us {
@@ -308,7 +268,6 @@ hr {
   font-size: 2.3em;
   color: #044b87;
 }
-
 .contact-p {
   text-align: center;
   font-size: 2em;
@@ -316,28 +275,24 @@ hr {
   color: #044b87;
   margin: 2rem 2rem;
 }
-
 form fieldset {
   margin: 2rem 2rem;
   border: 1px solid #445ba9;
   border-radius: 10px;
   padding: 0.5rem 2%;
 }
-
 form legend {
   color: #445ba9;
   margin: 0 1rem;
   padding: 0.5rem;
   font-size: 1.3em;
 }
-
 form label.top,
 form div {
   display: block;
   padding: 1em 0em 1em 0em;
   font-size: 1.3em;
 }
-
 form label.top input,
 form label.top select,
 form label.top textarea {
@@ -352,17 +307,14 @@ form label.top textarea {
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
 }
-
 form label.sbs {
   font-size: 1.3em;
   display: block;
   padding: 0.75rem 0;
 }
-
 .level {
   margin: 0px 10px;
 }
-
 form input.submitBtn {
   display: block;
   border: none;
@@ -376,32 +328,25 @@ form input.submitBtn {
   align-items: center;
   font-size: 1.3em;
 }
-
 form label.top input:required {
   border-left: red solid 6px;
 }
-
 form label.top input:required:valid {
   border-left: green solid 6px;
 }
-
 .member-options ul {
   display: none;
 }
-
 /*---------- DISCOVER ----------*/
-
 .directory-main {
   max-width: 60em;
   margin: 20px auto;
 }
-
 #cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 0.5rem;
 }
-
 .images {
   border: 1px inset #044B87;
   background-color: #dcf0f8;
@@ -410,18 +355,15 @@ form label.top input:required:valid {
   border-radius: 4px;
   box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.3);
 }
-
 div#cards section {
   display: grid;
   text-align: center;
   margin: 10px 50px;
   border-radius: 5px;
 }
-
 div#cards section img {
   margin: 10px auto;
 }
-
 div#list section {
   display: flex;
   flex-direction: column;
@@ -431,24 +373,20 @@ div#list section {
   border-radius: 5px;
   border: 1px solid #044b87;
 }
-
 div#list>section:nth-of-type(odd) {
   background-color: #dcf0f8;
   ;
 }
-
 div#list section a {
   margin: 5px;
   padding: 5px;
 }
-
 .directory-buttons {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 1.3em;
   margin: 20px 0px;
 }
-
 .directory-buttons button {
   margin: 10px;
   background-color: #044b87;
@@ -457,49 +395,40 @@ div#list section a {
   font-size: 1em;
   box-shadow: 2px 2px 2px 2px rgba(4, 75, 135, 0.35);
 }
-
 #cards.hidden,
 #list.hidden {
   display: none;
 }
-
 .thankyou-message {
   background-color: #a8ccea;
   margin: 20px 50px;
   border-radius: 5px;
   color: #044b87;
 }
-
 .thankyou-message h2 {
   text-align: center;
   padding: 20px;
 }
-
 .thankyou-message p {
   font-size: 1.3em;
   font-weight: bold;
 }
-
 .thankyou-message span {
   font-weight: 300;
 }
-
 .contact-main form fieldset{
   margin: 20px 5%;
 } 
-
 .contactInfo1, .contactInfo2 {
   margin-left: 10%;
   margin-right: 10%;
 }
-
 .contact-map iframe{
   border: 1px solid #445ba9;
   border-radius: 10px;
   width: 100%;
   height: 100%;
 }
-
 .contact-main .contact-data {
   margin: 20px 5% 22%;
   border: 1px solid #445ba9;
@@ -507,13 +436,11 @@ div#list section a {
   padding: 0.5rem 2%;
   color:#044b87;
 }
-
 .contact-main{
   display: grid;
   grid-template-rows: repeat(2, auto);
   grid-row-gap: 10px;
 }
-
 .contact-main form{
   grid-row: 2/3;
   margin: 0;

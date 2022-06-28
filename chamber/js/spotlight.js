@@ -5,7 +5,6 @@ const spotlight_3 = document.querySelector(".spotlight-3");
 const membership = ["Bronze", "Non-profit"];
 let silverLevel = "Silver";
 let godLelvel = "Gold";
-
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -15,10 +14,6 @@ fetch(requestURL)
     const randomSilver = selectLevel(member);
     const randomGold = selectLevel1(member);
     const randomBonze = selectLevel2(member);
-    //const spot = selectSpotlight(randomlevel);
-    //console.log(randomSilver);
-    //console.log(randomGold);
-    //console.log(spot);
     displayCards(randomGold, spotlight_1);
     displayCards(randomSilver, spotlight_2);
     displayCards(randomBonze, spotlight_3);
@@ -27,49 +22,31 @@ fetch(requestURL)
 function ramdomLevel(membership) {
   return membership[Math.floor(Math.random() * membership.length)];
 }
-
 let randomlevel = ramdomLevel(membership);
-//console.log(ramdomLevel(membership));
-
 function selectLevel(member) {
   let level = member.filter((lvl) => lvl.level === silverLevel);
-  //console.log(level);
-
   const keys = Object.keys(level);
-  //console.log(keys);
   const randIndex = Math.floor(Math.random() * keys.length);
-  //console.log(randIndex);
   const randKey = keys[randIndex];
   const levels = level[randKey];
-  //console.log(levels);
   return levels;
 }
 
 function selectLevel1(member) {
   let level = member.filter((lvl) => lvl.level === godLelvel);
-  //console.log(level);
-
   const keys = Object.keys(level);
-  //console.log(keys);
   const randIndex = Math.floor(Math.random() * keys.length);
-  //console.log(randIndex);
   const randKey = keys[randIndex];
   const levels1 = level[randKey];
-  //console.log(levels);
   return levels1;
 }
 
 function selectLevel2(member) {
   let level = member.filter((lvl) => lvl.level === randomlevel);
-  //console.log(level);
-
   const keys = Object.keys(level);
-  //console.log(keys);
   const randIndex = Math.floor(Math.random() * keys.length);
-  //console.log(randIndex);
   const randKey = keys[randIndex];
   const levels2 = level[randKey];
-  //console.log(levels);
   return levels2;
 }
 
@@ -82,7 +59,6 @@ function selectSpotlight(randomlevel) {
 }
 
 function displayCards(randomMembership, spot) {
-  //Create elements to add info from json
   let h3 = document.createElement("h3");
   let div = document.createElement("div");
   let image = document.createElement("img");
