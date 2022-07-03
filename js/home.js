@@ -82,8 +82,8 @@ myLessons = {
     },
       {
       lessons: "Lesson 11: ",
-      linkName: "",
-      link: "",
+      linkName: "Chamber of comerce",
+      link: "./chamber/index.html",
     },
   ],
 };
